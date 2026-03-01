@@ -1,0 +1,130 @@
+.main {
+    display: flex;
+    padding: 231px 0 284px 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.form {
+    display: flex;
+    width: 640px;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    flex-shrink: 0;
+}
+
+#logo {
+}
+
+.form_inner {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+.form_inner label {
+    color: var(--Secondary-800, #1F2937);
+
+    /* pretendard/2lg-18px-bold */
+    font-family: Pretendard;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px; /* 144.444% */
+}
+
+.form_input  {
+    display: flex;
+    width: 592px;
+    height: 24px;
+    padding: 16px 24px;
+    align-items: center;
+    border: 0;
+    border-radius: 12px;
+    background: var(--Cool-Gray-100, #F3F4F6);
+}
+
+.form_input:focus {
+    outline: none;
+    border: 1px solid var(--brand-blue, #3692FF);
+
+
+}
+
+#btn_large {
+    display: flex;
+    width: 640px;
+    height: 56px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border: 0;
+    border-radius: 40px;
+    background: var(--Secondary-400, #9CA3AF);
+
+    color: var(--Cool-Gray-100, #F3F4F6);
+    text-align: center;
+    text-decoration: none;
+    /* pretendard/xl-20px-semibold */
+    font-family: Pretendard;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32px; /* 160% */
+}
+
+.login_container {
+    display: flex;
+    width: 594px;
+    padding: 16px 23px; 
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 8px;
+    background: #E6F2FF;
+}
+
+.login_social {
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+.login_social img {
+    width: 42px;
+    height: 42px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+}
+
+.footer p {
+    color: var(--Secondary-800, #1F2937);
+
+    /* pretendard/md-14px-medium */
+    font-family: Pretendard;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 171.429% */
+}
+
+.footer a {
+    color: var(--Primary-100, #3692FF);
+    font-family: "Pretendard";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-skip-ink: none;
+    text-decoration-thickness: auto;
+    text-underline-offset: auto;
+    text-underline-position: from-font;
+}
